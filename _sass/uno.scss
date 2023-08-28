@@ -45,7 +45,6 @@ body {
 		display: table; }
 	body:after {
 		clear: both; }
-
 /*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
@@ -1097,14 +1096,15 @@ pre {
 	margin: 0 auto; }
 
 .content-wrapper {
-	z-index: 800;
-	width: 60%;
-	max-width: 800px;
-	margin-left: 40%; }
+  z-index: 800; /* You might want to reconsider this */
+  width: 60%;
+  margin: 0 auto; /* Centers the element */
+}
 
 .content-wrapper__inner {
-	margin: 0 10%;
-	padding: 50px 0; }
+  margin: 0 10%;
+  padding: 50px 0;
+}
 
 .footer {
 	display: block;
