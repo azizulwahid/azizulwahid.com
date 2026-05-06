@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254" role="img" aria-labelledby="title desc">
+  <title id="title">AW geometric monogram logo</title>
+  <desc id="desc">A green circular badge on a dark navy background with a white geometric AW monogram.</desc>
+
+  <rect width="1254" height="1254" fill="#050D1D"/>
+  <circle cx="627" cy="626" r="458" fill="#18C766"/>
+
+  <g fill="#FFFFFF">
+    <!-- AW monogram -->
+    <rect x="366" y="350" width="69" height="573"/>
+    <rect x="366" y="350" width="307" height="73"/>
+    <rect x="600" y="350" width="73" height="573"/>
+    <rect x="600" y="850" width="287" height="73"/>
+    <rect x="814" y="350" width="73" height="573"/>
+
+    <!-- inner square marks -->
+    <rect x="491" y="603" width="51" height="51"/>
+    <rect x="720" y="603" width="50" height="51"/>
+  </g>
+</svg>
