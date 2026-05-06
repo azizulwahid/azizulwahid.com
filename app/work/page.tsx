@@ -1,32 +1,15 @@
-const technologies = [
-  "AWS",
-  "Azure",
-  "Kubernetes",
-  "Docker",
-  "Kafka",
-  "Snowflake",
-  "Airflow",
-  "dbt",
-  "Python",
-  "JavaScript",
-  "GraphQL",
-  "Terraform",
-  "AWS CDK",
-  "Git"
-];
-
 export default function Work() {
   return (
     <section>
       <p>
-        I&apos;ve worked with cloud and data engineering tools including{" "}
-        {technologies.slice(0, -1).join(", ")}, and{" "}
-        {technologies[technologies.length - 1]}.
+        I&apos;ve worked across startups, fintech, and data-heavy teams,
+        including <a href="https://www.rings.ai/">Rings AI</a> and{" "}
+        <a href="https://www.moneylion.com/">MoneyLion</a>.
       </p>
       <p>
-        The work I enjoy most sits where infrastructure, data quality, and
-        product needs meet: making pipelines easier to trust, cloud systems
-        easier to operate, and engineering decisions easier to explain.
+        Most of my work is around backend systems, data platforms, and
+        production workflows. I like building things that are reliable,
+        understandable, and useful to the people who depend on them.
       </p>
     </section>
   );
