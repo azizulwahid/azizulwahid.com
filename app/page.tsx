@@ -2,19 +2,21 @@ export default function Home() {
   return (
     <section>
       <p>
-        I&apos;m a software and data engineer focused on cloud infrastructure,
-        data platforms, and practical systems that help teams move faster.
+        I&apos;m Azizul Wahid, a developer based in Malaysia.
       </p>
       <p>
-        My path into engineering started in a physics lab at UC Santa Barbara,
-        writing code to analyze stars. Since then, I&apos;ve worked across cloud
-        services, data pipelines, and production platforms with an eye toward
-        reliability and measurable business impact.
+        I build backend systems, data platforms, and practical software for
+        teams that need things to work reliably. I&apos;ve worked across startups
+        and midsize companies, mostly around backend engineering, data
+        pipelines, and production analytics platforms.
       </p>
       <p>
-        Away from the screen, I spend time diving, climbing, and reading. I like
-        building with people who care about clear thinking, useful systems, and
-        doing the work well.
+        I&apos;m also a top-rated engineer on Upwork, where I work with clients on
+        backend and data engineering projects.
+      </p>
+      <p>
+        Away from the screen, I spend time diving, climbing, running, reading,
+        and writing.
       </p>
     </section>
   );
