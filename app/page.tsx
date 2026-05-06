@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section>
       <p>
-        I&apos;m Azizul Wahid, a developer based in Malaysia.
+        I&apos;m a developer based in Malaysia.
       </p>
       <p>
         I build backend systems, data platforms, and practical software for
