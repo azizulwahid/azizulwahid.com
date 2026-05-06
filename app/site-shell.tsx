@@ -49,7 +49,7 @@ const socialLinks = [
 
 const navItems: Array<{ href: string; label: string; page: Page }> = [
   { href: "/", label: "About", page: "about" },
-  { href: "/work", label: "Work", page: "work" }
+  { href: "/work/", label: "Work", page: "work" }
 ];
 
 export function SiteShell({
@@ -58,7 +58,9 @@ export function SiteShell({
   children: ReactNode;
 }>) {
   const pathname = usePathname();
-  const activePage: Page = pathname === "/work" ? "work" : "about";
+  const normalizedPathname =
+    pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+  const activePage: Page = normalizedPathname === "/work" ? "work" : "about";
   const [dotPage, setDotPage] = useState<Page>(activePage);
   const [dotVisible, setDotVisible] = useState(true);
 
