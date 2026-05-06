@@ -49,7 +49,7 @@ const socialLinks = [
 
 const navItems: Array<{ href: string; label: string; page: Page }> = [
   { href: "/", label: "About", page: "about" },
-  { href: "/work/", label: "Work", page: "work" }
+  { href: "/work", label: "Work", page: "work" }
 ];
 
 export function SiteShell({
